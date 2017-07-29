@@ -4,6 +4,11 @@
 - https://www.continuum.io
 - 右上の方にDOWNLOADがあるのでそれをクリック
 - 使っているOSを選択しPython 2.7 versionをダウンロードします
+- Macの方は~/anacondaにイントールされるのでpathを通してあげないといけません
+```
+.bash_profile
+export PATH="/Users/user_name/anaconda/bin:$PATH"
+```
 
 ## Pythonの基礎
 - http://bootcamp-text.readthedocs.io

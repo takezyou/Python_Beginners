@@ -1,0 +1,31 @@
+class_name: Model
+config:
+  input_layers:
+  - [input_1, 0, 0]
+  layers:
+  - class_name: InputLayer
+    config:
+      batch_input_shape: !!python/tuple [null, 784]
+      input_dtype: float32
+      name: input_1
+      sparse: false
+    inbound_nodes: []
+    name: input_1
+  - class_name: Dense
+    config: {W_constraint: null, W_regularizer: null, activation: relu, activity_regularizer: null,
+      b_constraint: null, b_regularizer: null, bias: true, init: glorot_uniform, input_dim: null,
+      name: dense_3, output_dim: 512, trainable: true}
+    inbound_nodes:
+    - - [input_1, 0, 0]
+    name: dense_3
+  - class_name: Dense
+    config: {W_constraint: null, W_regularizer: null, activation: softmax, activity_regularizer: null,
+      b_constraint: null, b_regularizer: null, bias: true, init: glorot_uniform, input_dim: null,
+      name: dense_4, output_dim: 10, trainable: true}
+    inbound_nodes:
+    - - [dense_3, 0, 0]
+    name: dense_4
+  name: model_1
+  output_layers:
+  - [dense_4, 0, 0]
+keras_version: 1.1.2
