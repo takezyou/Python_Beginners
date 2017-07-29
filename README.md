@@ -3,7 +3,7 @@
 
 ### アジェンダ
 - Anacondaのインストール
- - (Python2.7系)
+	- (Python2.7系)
 - Pythonの基礎
 - Pandasチートシート
 - TensorFlowとKerasのインストール
