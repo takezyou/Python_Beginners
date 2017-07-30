@@ -1,5 +1,9 @@
 # 初心者環境構築＆Python基礎チーム
 
+# jupyter notebook
+- http://qiita.com/masafumi_miya/items/6524dbd227705351a00c
+	- ショートカットキー
+
 ## Anacondaのインストール(Python2.7系)
 Anacondaとは  
 Continuum Analytics 社によって提供されている、Python 本体に加え、科学技術、数学、エンジニアリング、データ分析など、よく利用される Python パッケージを一括でインストール可能にしたパッケージです
