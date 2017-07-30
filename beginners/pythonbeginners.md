@@ -1,6 +1,6 @@
 # 初心者環境構築＆Python基礎チーム
 
-# jupyter notebook
+## jupyter notebook
 - http://qiita.com/masafumi_miya/items/6524dbd227705351a00c
 	- ショートカットキー
 
@@ -41,5 +41,11 @@ pip install keras
 ```
 
 ## Kerasを使ったmnist画像認識
-
+```
+brew install graphviz
+pip install pydot
+pip install graphviz
+pip install pydotpuls
+pip install pydot-ng
+```
 

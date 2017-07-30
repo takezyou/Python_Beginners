@@ -9,3 +9,7 @@
 - TensorFlowとKerasのインストール
 - Kerasを使ったmnist画像認識
 - gitの使い方
+
+### 参考資料
+- https://www.slideshare.net/hijiki_s/20150307-py-datatutorial
+- http://yukino.moo.jp/2016-07-06-DDBJ.pdf
